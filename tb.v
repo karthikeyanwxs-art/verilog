@@ -1,4 +1,4 @@
- module tb;
+module tb;
 reg A,B;
 wire Y;
 andgate gate(.a(A),.b(B),.y(Y));
